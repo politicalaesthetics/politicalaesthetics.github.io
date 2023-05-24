@@ -2,5 +2,79 @@
 title: 'PA: Homepage'
 output: html_document
 ---
+<style>
+.title{
+  display: none;
+}
+</style>
 
-This is a test.
+```{css, echo=FALSE}
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.center img {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1.1em;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+a {
+  color: #1a73e8;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+```
+
+<div class="center">
+  <h1>Political Aesthetics</h1>
+  <img src="aesthetics_homepagepic_1.png" alt="Aesthetics Flyer">
+</div>
+
+
+```{r setup, include=FALSE}
+  knitr::opts_chunk$set(echo = TRUE)
+  options(knitr.duplicate.label = "allow")
+```
+
+```{r, render, echo = FALSE, include=FALSE}
+  # rmarkdown::render("dca-tutorial.Rmd")
+  # 
+  # rmarkdown::render("dca-tutorial.Rmd",
+  #                  params = list(language = "r"),
+  #                  output_file = "dca-tutorial-r.html")
+  # rmarkdown::render("dca-tutorial.Rmd",
+  #                  params = list(language = "stata"),
+  #                  output_file = "dca-tutorial-stata.html")
+  # rmarkdown::render("dca-tutorial.Rmd",
+  #                  params = list(language = "sas"),
+  #                  output_file = "dca-tutorial-sas.html")
+  # rmarkdown::render("dca-tutorial.Rmd",
+  #                  params = list(language = "python"),
+  #                  output_file = "dca-tutorial-python.html")
+  # rmarkdown::render("literature.Rmd")
+  # rmarkdown::render("resources.Rmd")
+```

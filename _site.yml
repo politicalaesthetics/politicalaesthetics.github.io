@@ -1,0 +1,10 @@
+name: ""
+output_dir: "."
+navbar:
+  title: "Political Aesthetics"
+  left:
+    - text: Home
+      href: index.html
+output:
+  html_document:
+    theme: yeti
