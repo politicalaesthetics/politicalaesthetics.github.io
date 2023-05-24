@@ -51,7 +51,7 @@ a:hover {
 
 <div class="center">
   <h1>Political Aesthetics</h1>
-  <img src="aesthetics_homepagepic_1.png" alt="Aesthetics Flyer">
+  <img src="homepagepic_1.png" alt="Aesthetics Flyer">
 </div>
 
 
