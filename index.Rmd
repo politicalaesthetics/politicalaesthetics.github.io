@@ -51,6 +51,7 @@ a:hover {
 ```
 
 <div class="center">
+  <h2>Political Aesthetics</h2>
   <img src="homepagepics/homepagepic_1.png" alt="Aesthetics Flyer">
 </div>
 
@@ -101,6 +102,8 @@ a:hover {
 <div class="center">
   <img src="homepagepics/homepagepic_14.png" alt="Aesthetics Flyer">
 </div>
+
+
 
 ```{r setup, include=FALSE}
   knitr::opts_chunk$set(echo = TRUE)
