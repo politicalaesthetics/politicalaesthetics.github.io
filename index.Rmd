@@ -103,7 +103,7 @@ a:hover {
   <img src="homepagepics/homepagepic_14.png" alt="Aesthetics Flyer">
 </div>
 
-
+Exhibition in New York, UN Headquarters, 22-26th May, 2023
 
 ```{r setup, include=FALSE}
   knitr::opts_chunk$set(echo = TRUE)
